@@ -25,11 +25,18 @@
         </activity>
         <activity
             android:name=".MainInformation"
-            android:label="@string/title_activity_main_information"
-            >
+            android:label="@string/title_activity_main_information" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.user.mommemories.MainActivity" /> </activity>
+                android:value="com.example.user.mommemories.MainActivity" />
+        </activity>
+        <activity
+            android:name=".MainAddNote"
+            android:label="@string/title_activity_main_add_note" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.user.mommemories.MainNote" />
+        </activity>
     </application>
 
 </manifest>

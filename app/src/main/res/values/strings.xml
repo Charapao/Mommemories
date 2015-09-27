@@ -8,5 +8,7 @@
     <string name="slidedown">Slide Down</string>
     <string name="title_activity_main_note">MainNote</string>
     <string name="title_activity_main_information">MainInformation</string>
-
+    <string name="addnotebuttonname">Add Note</string>
+    <string name="title_activity_main_add_note">MainAddNote</string>
+    <string name="savebuttonfornote">Save</string>
 </resources>
