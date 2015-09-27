@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Mommemories</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="slideleft">Slide Left</string>
+    <string name="slideright">Slide Right</string>
+    <string name="slidedown">Slide Down</string>
+    <string name="title_activity_main_note">MainNote</string>
+    <string name="title_activity_main_information">MainInformation</string>
+
+</resources>
