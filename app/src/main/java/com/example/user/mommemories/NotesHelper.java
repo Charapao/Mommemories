@@ -8,7 +8,7 @@ import static com.example.user.mommemories.Constants.*;
  * Created by User on 27/9/2558.
  */
 public class NotesHelper extends SQLiteOpenHelper {
-    private static final String DATABASE_NAME = "notess.db";
+    private static final String DATABASE_NAME = "notes.db";
     private static final int DATABASE_VERSION = 1;
 
 
@@ -26,7 +26,7 @@ public class NotesHelper extends SQLiteOpenHelper {
 
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
-//        db.execSQL("DROP TABLE IF EXISTS " + TABLE_NAME);
-//        onCreate(db);
+        db.execSQL("DROP TABLE IF EXISTS " + TABLE_NAME);
+        onCreate(db);
     }
 }
